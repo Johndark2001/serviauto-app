@@ -1,0 +1,54 @@
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* fondo oscuro semitransparente */
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.home-logo {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.home-subtitle {
+  font-size: 1.3rem;
+  color: #f0f0f0;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-button {
+  background-color: #1976d2;
+  color: white;
+  padding: 14px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: #125ca1;
+}

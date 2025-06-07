@@ -1,0 +1,50 @@
+.historial-container {
+  padding: 40px;
+  background-color: #f3f6f9;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.historial-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.historial-select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.historial-btn {
+  padding: 10px 20px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.historial-btn:hover {
+  background-color: #02669b;
+}
+
+.historial-table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+}
+
+.historial-table th,
+.historial-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.historial-table th {
+  background-color: #e0e0e0;
+}

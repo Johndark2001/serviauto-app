@@ -1,0 +1,50 @@
+.auth-container {
+  padding: 40px;
+  max-width: 400px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+
+.auth-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #1976d2;
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.auth-form button {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #125ca1;
+}
+
+.auth-message {
+  margin-top: 10px;
+  text-align: center;
+  color: #444;
+}

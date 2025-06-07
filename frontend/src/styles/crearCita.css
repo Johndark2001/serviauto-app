@@ -1,0 +1,41 @@
+.crear-cita-container {
+  padding: 40px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.crear-cita-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.crear-cita-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 15px;
+}
+
+.crear-cita-form input,
+.crear-cita-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.crear-cita-form button {
+  padding: 10px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.crear-cita-form button:hover {
+  background-color: #125ca1;
+}
